@@ -21,12 +21,12 @@ class Gradebook < Student
 
   def student_average(name)
     student = find_student(name)
-    student&.average_grade
+    student&.average_grade # &. is the safe navigation operator in case of a nil object being passed in, there won't be an error thrown
   end
 
   def student_letter_grade(name)
     student = find_student(name)
-    student&.letter_grade
+    student&.letter_grade # &. is the safe navigation operator in case of a nil object being passed in, there won't be an error thrown
   end
 
 end

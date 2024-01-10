@@ -11,7 +11,7 @@ class Student
   end
 
   def average_grade
-    @grades.sum / @grades.length
+    @grades.sum.to_f / @grades.length.to_f
   end
 
   def letter_grade

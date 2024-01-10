@@ -1,6 +1,6 @@
 require 'rspec'
-require_relative '../exercises/exercise_4/gradebook'
-require_relative '../exercises/exercise_4/student'
+require_relative '../exercise_4/gradebook'
+require_relative '../exercise_4/student'
 
 describe Gradebook do
   let(:gradebook) { Gradebook.new }

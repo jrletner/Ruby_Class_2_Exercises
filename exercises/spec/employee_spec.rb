@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../exercises/exercise_5/employee.rb'
+require_relative '../exercise_5/employee.rb'
 
 describe Employee do
   let(:employee1) { Employee.new("John Doe", "Developer", 70000) }

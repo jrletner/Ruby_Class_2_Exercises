@@ -1,6 +1,6 @@
 require 'rspec'
-require_relative '../exercises/exercise_5/department.rb'
-require_relative '../exercises/exercise_5/employee.rb'
+require_relative '../exercise_5/department.rb'
+require_relative '../exercise_5/employee.rb'
 
 describe Department do
   let(:department) { Department.new }
